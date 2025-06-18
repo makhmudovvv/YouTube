@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    background: darkgoldenrod;
+}
+.bosh{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 150px;
+    background:rgb(1, 75, 1) ;
+}
+.kozlar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 0 0;
+    gap: 30px;
+}
+.green{
+    height: 50%;
+    background:rgb(1, 75, 1) ;
+}
+.eye{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: darkgoldenrod;
+}
+.qora{
+    width: 18px;
+    height: 18px;
+    background: black;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -10px;
+}
+.half{
+    background:rgb(1, 75, 1) ;
+    height: 50%;
+}
+
+.quloq{
+    width: 120px;
+    height: 280px;
+    background:rgb(1, 75, 1) ;
+    border-radius: 50%;
+    margin-left: 418px;
+    margin-top: -232px;
+    padding: 20px 0 0 0 ;
+}
+.yarim{
+    width: 60px;
+    height:240px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background: rgb(1, 45, 1);
+}
+.nargi{
+    width: 120px;
+    height: 280px;
+    background:rgb(1, 75, 1) ;
+    border-radius: 50%;
+    margin-left: 722px;
+    margin-top: -279px;
+    padding: 20px 0 0 0 ;
+}
+.qorasi{
+    width: 60px;
+    height:240px;
+    border-radius: 50%;
+    margin-left:10px;
+    background: rgb(1, 45, 1);
+}
+
+.oq{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+border-top: 30px solid white;
+    
+    position: absolute;
+    margin-left: 555px;
+    margin-top: -120px;
+}
+.burin{
+    width: 80px;
+    height: 200px;
+    margin: auto;
+    margin-top: -130px;
+    position: absolute;
+    margin-left: 590px;
+    background: rgb(1, 45, 1);
+    border-radius: 24px 24px 0 0;
+}
+.pos{
+    height: 50%;
+    
+}
