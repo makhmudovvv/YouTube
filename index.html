@@ -1,108 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./home.css"><link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css" />
 </head>
 <body>
-    <nav>
-        <div class="menu">
-            <i class="fa-solid fa-bars"></i>
-            <div class="logo">
-                <i class="fa-brands fa-youtube" style="color: #ff4013;"></i>
-                <h1>YouTube</h1>
-            </div>
-        </div>
-        <div class="inp">
-            <input type="text" placeholder="Search">
-            <i class="fa-solid fa-keyboard"></i>
-            <div class="micro">
-                <i class="fa-solid fa-microphone"></i>
-            </div>
-        </div>
-        </div>
-        <div class="create">
-            <i class="fa-solid fa-plus"></i>
-            <h3>Create</h3>
-        </div>
-        <div class="ring">
-            <span class="yt-icon-shape style-scope yt-icon yt-spec-icon-shape __web-inspector-hide-shortcut__"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path clip-rule="evenodd" d="M18.001 10a6.003 6.003 0 00-4.025-5.667 2 2 0 10-3.945-.002A6.003 6.003 0 006.001 10v3.988a.044.044 0 01-.006.022L3.91 17.485A1 1 0 004.767 19h14.468a1 1 0 00.857-1.515l-2.085-3.475a.044.044 0 01-.006-.022V10Zm-6 12a3.001 3.001 0 002.83-2H9.17A3.001 3.001 0 0012 22Z" fill-rule="evenodd"></path></svg></div></span></div>
-            <div class="choji">
-                <img src="./choji.png" alt="">
-            </div>
-    </nav>
-    <main>
-        <aside class="saidbar">
-            <ul>
-                <li><i class="fa-solid fa-house"></i> <h4>Menu</h4>
-                </li>
-            </ul>
-            <ul>
-                <li><i class="fa-solid fa-bolt"></i> <h4>Shorts</h4>
-                </li>
-            </ul>
-            <ul>
-                <li><i class="fa-solid fa-rectangle-history-circle-user"></i> <h4>Follow</h4>
-                </li>
-            </ul>
-            <ul>
-                <li><i class="fa-solid fa-circle-user"></i> <h4>Me</h4>
-                </li>
-            </ul>
-        </aside>
-     <div class="bosh">
-  <div class="video-row">
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
-      <p>Never Gonna Give You Up</p>
-    </div>
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" allowfullscreen></iframe>
-      <p>Charlie Puth - Attention</p>
-    </div>
-  </div>
-
-  <div class="video-row">
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/kXYiU_JCYtU" allowfullscreen></iframe>
-      <p>Linkin Park - Numb</p>
-    </div>
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/fLexgOxsZu0" allowfullscreen></iframe>
-      <p>Bruno Mars - 24K Magic</p>
-    </div>
-  </div>
-
-  <div class="shorts">
-    <div class="shorts-row">
-      <div class="short">
-        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
-        <p>Funny Cat</p>
-      </div>
-      <div class="short">
-        <iframe src="https://www.youtube.com/embed/lXMskKTw3Bc" allowfullscreen></iframe>
-        <p>Dance Move</p>
-      </div>
-      <div class="short">
-        <iframe src="https://www.youtube.com/embed/MtN1YnoL46Q" allowfullscreen></iframe>
-        <p>Talking Duck</p>
+  <nav>
+    <div class="menu">
+      <i class="fa-solid fa-bars"></i>
+      <div class="logo">
+        <i class="fa-brands fa-youtube" style="color: #ff4013;"></i>
+        <h1>YouTube</h1>
       </div>
     </div>
-  </div>
+    <div class="inp">
+      <input type="text" placeholder="Search" />
+      <i class="fa-solid fa-keyboard"></i>
+      <div class="micro">
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+    </div>
+    <div class="create">
+      <i class="fa-solid fa-plus"></i>
+      <h3>Create</h3>
+    </div>
+    <div class="ring">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24">
+        <path clip-rule="evenodd" d="M18.001 10a6.003 6.003 0 00-4.025-5.667 2 2 0 10-3.945-.002A6.003 6.003 0 006.001 10v3.988a.044.044 0 01-.006.022L3.91 17.485A1 1 0 004.767 19h14.468a1 1 0 00.857-1.515l-2.085-3.475a.044.044 0 01-.006-.022V10Zm-6 12a3.001 3.001 0 002.83-2H9.17A3.001 3.001 0 0012 22Z" fill-rule="evenodd"/>
+      </svg>
+    </div>
+    <div class="choji">
+      <img src="./choji.png" alt="Profile"/>
+    </div>
+  </nav>
 
-  <div class="video-row">
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/CevxZvSJLk8" allowfullscreen></iframe>
-      <p>Katy Perry - Roar</p>
+  <main>
+    <aside class="saidbar">
+      <ul><li><i class="fa-solid fa-house"></i><h4>Menu</h4></li></ul>
+      <ul><li><i class="fa-solid fa-bolt"></i><h4>Shorts</h4></li></ul>
+      <ul><li><i class="fa-solid fa-rectangle-history-circle-user"></i><h4>Follow</h4></li></ul>
+      <ul><li><i class="fa-solid fa-circle-user"></i><h4>Me</h4></li></ul>
+    </aside>
+    <div class="Horizontal">
+      <button>Our</button>
+      <button>Video</button>
+      <button>Gaming</button>
+      <button>Music</button>
+      <button>Live</button>
+      <button>Creative</button>
+      <button>Rap</button>
+      <button>Football</button>
+      <button>Animation</button>
     </div>
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/2vjPBrBU-TM" allowfullscreen></iframe>
-      <p>Sia - Chandelier</p>
+    <div class="video-container">
+      <div class="video"><iframe src="https://www.youtube.com/embed/tWTCq9xM9dM" allowfullscreen></iframe><p>Rick Astley - Never Gonna Give You Up</p></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" allowfullscreen></iframe><p>Charlie Puth - Attention</p></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/kXYiU_JCYtU" allowfullscreen></iframe><p>Linkin Park - Numb</p></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/fLexgOxsZu0" allowfullscreen></iframe><p>Bruno Mars - 24K Magic</p></div>
+
+      <div class="video"><iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe><p>Funny Cat</p></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/lXMskKTw3Bc" allowfullscreen></iframe><p>Dance Move</p></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/MtN1YnoL46Q" allowfullscreen></iframe><p>Talking Duck</p></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/CevxZvSJLk8" allowfullscreen></iframe><p>Katy Perry - Roar</p></div>
+
+      <div class="video"><iframe src="https://www.youtube.com/embed/2vjPBrBU-TM" allowfullscreen></iframe><p>Sia - Chandelier</p></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/09R8_2nJtjg" allowfullscreen></iframe><p>Maroon 5 - Sugar</p></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/OPf0YbXqDm0" allowfullscreen></iframe><p>Mark Ronson - Uptown Funk</p></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/RgKAFK5djSk" allowfullscreen></iframe><p>Wiz Khalifa - See You Again</p></div>
     </div>
-  </div>
-     </div>
-    </main>
+  </main>
 </body>
 </html>
